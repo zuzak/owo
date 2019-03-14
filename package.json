@@ -9,7 +9,8 @@
   "author": "Douglas Gardner <douglas@chippy.ch>",
   "license": "MIT",
   "dependencies": {
-    "random-item": "^1.0.0"
+    "random-item": "^1.0.0",
+    "replace-string": "^2.0.0"
   },
   "devDependencies": {
     "assert": "^1.4.1",
