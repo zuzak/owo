@@ -1,0 +1,18 @@
+{
+  "name": "whats-this",
+  "version": "1.0.0",
+  "description": "Furry string transformer :3",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "Douglas Gardner <douglas@chippy.ch>",
+  "license": "MIT",
+  "dependencies": {
+    "random-item": "^1.0.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^6.0.2"
+  }
+}
