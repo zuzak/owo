@@ -3,6 +3,11 @@
 
 This is a port of the logic behind @Nepeta's cursed [OWO](https://github.com/Nepeta/OwO) into JavaScript.
 
+## Installation
+![npm (scoped)](https://img.shields.io/npm/v/@zuzak/owo.svg)
+```
+npm i @zuzak/owo
+```
 
 ## Usage
 ```js
