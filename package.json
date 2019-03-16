@@ -13,7 +13,7 @@
     "replace-string": "^2.0.0"
   },
   "devDependencies": {
-    "assert": "^1.4.1",
-    "mocha": "^6.0.2"
+    "assert": "1.4.1",
+    "mocha": "6.0.2"
   }
 }
