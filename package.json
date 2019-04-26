@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "random-item": "^1.0.0",
-    "replace-string": "^2.0.0"
+    "replace-string": "^3.0.0"
   },
   "devDependencies": {
     "assert": "1.4.1",
