@@ -47,7 +47,8 @@ const substitutions = {
   'has': 'haz',
   'have': 'haz',
   'you': 'uu',
-  'the ': 'da '
+  'the ': 'da ',
+  'The ': 'Da '
 }
 
 const addAffixes = (str) => randomItem(prefixes) + str + randomItem(suffixes)
