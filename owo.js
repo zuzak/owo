@@ -35,7 +35,8 @@ const suffixes = [
   '（＾ｖ＾）',
   ' Sigh.',
   ' ._.',
-  ' >_<'
+  ' >_<',
+  ' nya~'
 ]
 
 const substitutions = {
