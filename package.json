@@ -1,6 +1,6 @@
 {
   "name": "@zuzak/owo",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "Furry string transformer :3",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "devDependencies": {
     "assert": "2.0.0",
     "mocha": "^6.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

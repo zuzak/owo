@@ -3,6 +3,7 @@ const replaceString = require('replace-string')
 
 const prefixes = [
   '<3 ',
+  '0w0',
   'H-hewwo?? ',
   'HIIII! ',
   'Haiiii! ',
@@ -34,9 +35,11 @@ const suffixes = [
   ' (人◕ω◕)',
   '（＾ｖ＾）',
   ' Sigh.',
+  ' x3',
   ' ._.',
-  ' >_<',
-  ' nya~'
+  ' nya~',
+  ' (• o •)',
+  ' >_<'
 ]
 
 const substitutions = {
