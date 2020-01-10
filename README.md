@@ -14,5 +14,5 @@ npm i @zuzak/owo
 const owo = require('@zuzak/owo')
 
 console.log(owo('I have no mouth and I must scream'))
-// HIIII! I haz nu mouth and I must scweam XDDD
+// HIIII! I haz nu mouf and I must scweam XDDD
 ```
