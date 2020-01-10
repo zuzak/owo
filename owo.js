@@ -37,6 +37,7 @@ const suffixes = [
   ' Sigh.',
   ' x3',
   ' ._.',
+  ' nya~',
   ' (• o •)',
   ' >_<'
 ]
