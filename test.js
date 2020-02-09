@@ -15,10 +15,15 @@ describe('Substitution', function () {
     'r': 'w',
     'rrrrr': 'wwwww',
     'rlrlrl': 'wwwwww',
+    'thth thth thth': 'thf thf thth',
     'notification': 'nutification',
+    'with the economy in ruins': 'wif da econumy in wuins',
+    'it is a truth universally acknowledged': 'it is a twuf univewsawwy acknuwwedged',
     'MPs reject Theresa May\'s revised EU withdrawal deal, throwing UK\'s Brexit plans into confusion':
-    'MPs weject Thewesa May\'s wevised EU withdwawaw deaw, thwowing UK\'s Bwexit pwans into confusion'
+    'MPs weject Thewesa May\'s wevised EU withdwawaw deaw, thwowing UK\'s Bwexit pwans into confusion',
 
+    // if this one changes update the README too:
+    'I have no mouth and I must scream': 'I haz nu mouf and I must scweam'
   }
 
   Object.keys(subs).forEach(function (x) {

@@ -50,6 +50,7 @@ const substitutions = {
   'R': 'W',
   'L': 'W',
 //  'ow': 'OwO',
+  'th ': 'f ',
   'no': 'nu',
   'has': 'haz',
   'have': 'haz',
