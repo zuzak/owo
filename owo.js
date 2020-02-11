@@ -3,7 +3,7 @@ const replaceString = require('replace-string')
 
 const prefixes = [
   '<3 ',
-  '0w0',
+  '0w0 ',
   'H-hewwo?? ',
   'HIIII! ',
   'Haiiii! ',
