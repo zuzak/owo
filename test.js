@@ -6,6 +6,7 @@
  */
 const assert = require('assert')
 const owo = require('./owo.js')
+const owo2 = require('./index.js')
 
 
 describe('Substitution', function () {
@@ -33,5 +34,16 @@ describe('Affixes', function () {
   it(`should have a different number of letters afterwards`, function () {
     const str = '1234567890'
     assert.notEqual(str.length, owo.addAffixes(str).length)
+  })
+})
+
+describe('Module exports', function () {
+  it(`should have the same number of letters when calling owo()`, function () {
+    const str = '1234567890'
+    assert.notEqual(str.length, owo2(str).length)
+  })
+  it(`should have the same number of letters when calling owo.translate()`, function () {
+    const str = '1234567890'
+    assert.equal(str.length, owo2.translate(str).length)
   })
 })
