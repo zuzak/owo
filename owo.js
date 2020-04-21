@@ -15,6 +15,7 @@ const prefixes = [
 
 const suffixes = [
   ' :3',
+  ' (●´ω｀●)',
   ' UwU',
   ' (✿ ♡‿♡)',
   ' ÙωÙ',
