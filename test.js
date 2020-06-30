@@ -30,6 +30,29 @@ describe('Substitution', function () {
 });
 
 
+describe('Filtering', function () {
+  const subs = {
+    'flog': 'fwog',
+    'Flog': 'Fwog',
+    'blogger': 'bwoggew',
+    'logo': 'wogo',
+    'logos': 'wogos',
+
+    'log': 'log',
+    'logs': 'logs',
+    'Log': 'Log',
+    'lOg': 'lOg',
+    'we log the data': 'we log da data',
+  }
+
+  Object.keys(subs).forEach(function (x) {
+    it(`should substitute ${x} with ${subs[x]}`, function() {
+      assert.equal(owo.filterBadWords(owo.substitute(x), x), subs[x])
+    })
+  })
+})
+
+
 describe('Affixes', function () {
   it(`should have a different number of letters afterwards`, function () {
     const str = '1234567890'

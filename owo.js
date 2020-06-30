@@ -61,7 +61,27 @@ const substitutions = {
   'The ': 'Da '
 }
 
+const badWords = [ // words we should avoid replacing
+  'wog',
+  'wogs',
+]
+
 const addAffixes = (str) => randomItem(prefixes) + str + randomItem(suffixes)
+const filterBadWords = (str, orig) => {
+  if (!orig) throw new Error('Missing original string to filter back to')
+  badWords.forEach((word) => {
+    const regex = new RegExp(`\\b${word}\\b`, 'i')
+    const match = regex.exec(str)
+    if (match) {
+      const originalWord = orig.substr(match.index, word.length)
+      const DELIMITER = ''
+      const splitStr = str.split(DELIMITER)
+      splitStr.splice(match.index, originalWord.length, originalWord)
+      str = splitStr.join(DELIMITER)
+    }
+  })
+  return str
+}
 const substitute = (str) => {
   const replacements = Object.keys(substitutions)
   replacements.forEach((x) => {
@@ -69,10 +89,11 @@ const substitute = (str) => {
   })
   return str
 }
-const owo = (str) => addAffixes(substitute(str))
+const owo = (str) => addAffixes(filterBadWords(substitute(str), str))
 
 module.exports = {
   addAffixes,
   substitute,
+  filterBadWords,
   owo
 }
