@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "assert": "2.0.0",
-    "mocha": "^6.2.0"
+    "mocha": "^8.0.1"
   },
   "publishConfig": {
     "access": "public"
