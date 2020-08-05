@@ -14,6 +14,7 @@ const prefixes = [
 ]
 
 const suffixes = [
+  ' ( ͡° ᴥ ͡°)',
   ' (இωஇ )',
   ' (๑•́ ₃ •̀๑)',
   ' (• o •)',
