@@ -2,7 +2,7 @@
 > Huohhhh. fuwwy stwing twansfowmew ;3
 
 This is a port of the logic behind @Nepeta's cursed [OWO](https://github.com/Nepeta/OwO) into JavaScript.
-This project has also, in turn, been [ported into Go](https://github.com/mnlwldr/owo).
+This project has also, in turn, been [ported into Go](https://github.com/mnlwldr/owo) and [Raku](https://github.com/kawaii/raku-acme-owo).
 
 ## Installation
 ![npm (scoped)](https://img.shields.io/npm/v/@zuzak/owo.svg)
