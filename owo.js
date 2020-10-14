@@ -59,9 +59,11 @@ const substitutions = {
   'no': 'nu',
   'has': 'haz',
   'have': 'haz',
+  ' says': ' sez',
   'you': 'uu',
   'the ': 'da ',
-  'The ': 'Da '
+  'The ': 'Da ',
+  'THE ': 'THE ',
 }
 
 const addAffixes = (str) => randomItem(prefixes) + str + randomItem(suffixes)
