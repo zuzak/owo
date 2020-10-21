@@ -40,6 +40,7 @@ const suffixes = [
   ' XDDD',
   ' ^-^',
   ' ^_^',
+  ' nya~',
   ' x3',
   ' x3',
   ' xD',
