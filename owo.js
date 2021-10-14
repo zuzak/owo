@@ -7,7 +7,6 @@ const prefixes = [
   'H-hewwo?? ',
   'HIIII! ',
   'Haiiii! ',
-  'Konnichiwa!!! ',
   'Huohhhh. ',
   'OWO ',
   'OwO ',
