@@ -76,7 +76,7 @@ const substitutions = {
   'you': 'uu',
   'the ': 'da ',
   'The ': 'Da ',
-  'THE ': 'THE ',
+  'THE ': 'DA ',
 }
 
 const addAffixes = (str) => randomItem(prefixes) + str + randomItem(suffixes)
