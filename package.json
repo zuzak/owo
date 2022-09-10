@@ -1,6 +1,6 @@
 {
   "name": "@zuzak/owo",
-  "version": "1.16.1",
+  "version": "1.17.0",
   "description": "Furry string transformer :3",
   "main": "index.js",
   "scripts": {
