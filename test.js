@@ -38,7 +38,7 @@ describe('Affixes', function () {
 })
 
 describe('Module exports', function () {
-  it(`should have the same number of letters when calling owo()`, function () {
+  it(`should have a different number of letters when calling owo()`, function () {
     const str = '1234567890'
     assert.notEqual(str.length, owo2(str).length)
   })
