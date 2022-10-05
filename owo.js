@@ -61,23 +61,23 @@ const suffixes = [
   ' ミ(．．)ミ',
   ' ㅇㅅㅇ',
   ', fwendo',
-  '（＾ｖ＾）',
+  '（＾ｖ＾）'
 ]
 
 const substitutions = {
-  'r': 'w',
-  'l': 'w',
-  'R': 'W',
-  'L': 'W',
-//  'ow': 'OwO',
-  'no': 'nu',
-  'has': 'haz',
-  'have': 'haz',
+  r: 'w',
+  l: 'w',
+  R: 'W',
+  L: 'W',
+  //  'ow': 'OwO',
+  no: 'nu',
+  has: 'haz',
+  have: 'haz',
   ' says': ' sez',
-  'you': 'uu',
+  you: 'uu',
   'the ': 'da ',
   'The ': 'Da ',
-  'THE ': 'DA ',
+  'THE ': 'DA '
 }
 
 const addAffixes = (str) => randomItem(prefixes) + str + randomItem(suffixes)
