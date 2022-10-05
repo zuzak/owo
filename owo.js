@@ -10,7 +10,8 @@ const prefixes = [
   'Huohhhh. ',
   'OWO ',
   'OwO ',
-  'UwU '
+  'UwU ',
+  'What\'s this? '
 ]
 
 const suffixes = [
